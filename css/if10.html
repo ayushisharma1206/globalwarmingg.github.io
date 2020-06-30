@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.bb{margin:-140px 0px 0px 150px;}
+a:active{text-decoration:none;}
+a:link{text-decoration:none;}
+a:hover{text-decoration:none;}
+a{font-size:28px;}
+</head>
+</style>
+<body>
+<h1>A degree of difference</h1>
+<img src="98.jpeg" id="demo" height="200" width="300" onmouseover="my()" onmouseout="m()">
+<p>So, the Earth's average temperature has increased about 2 degrees Fahrenheit during the 20th century. What's the big deal?</p>
+<p>Two degrees may sound like a small amount, but it's an unusual event in our planet's recent history. Earth's climate record, preserved in tree rings, ice cores, and coral reefs, shows that the global average temperature is stable over long periods of time. Furthermore, small changes in temperature correspond to enormous changes in the environment.</p>
+<p>For example, at the end of the last ice age, when the Northeast United States was covered by more than 3,000 feet of ice, average temperatures were only 5 to 9 degrees cooler than today.</p>
+<script>
+function my()
+{
+var x=document.getElementById("demo");
+x.style.height="128px"
+x.style.width="128px"
+}
+function m()
+{
+var x=document.getElementById("demo");
+x.style.height="200px"
+x.style.width="300px"
+}
+
+</script>
+</body>
+</html>
